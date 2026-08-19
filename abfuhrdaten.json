@@ -1,0 +1,931 @@
+{
+  "app": "DräggWegg Münchenstein",
+  "version": "data-v1.0",
+  "year": 2026,
+  "district": "Münchenstein West",
+  "source": {
+    "publisher": "Einwohnergemeinde Münchenstein",
+    "document": "Entsorgen in Münchenstein 2026",
+    "url": "https://www.muenchenstein.ch/_doc/6359801"
+  },
+  "rules": {
+    "kehricht": "Kreis West: regulär jeden Freitag; Feiertagsausnahmen explizit ersetzt",
+    "karton": "Kreis West: offizielle monatliche Donnerstagstermine",
+    "default_reminder": "Vorabend um 19:00 Uhr"
+  },
+  "cancelled_kehricht_dates": [
+    {
+      "date": "2026-04-03",
+      "reason": "Karfreitag",
+      "replacement_date": "2026-04-07"
+    },
+    {
+      "date": "2026-05-01",
+      "reason": "Tag der Arbeit",
+      "replacement_date": "2026-05-05"
+    },
+    {
+      "date": "2026-12-25",
+      "reason": "Weihnachtstag",
+      "replacement_date": "2026-12-29"
+    }
+  ],
+  "events": [
+    {
+      "id": "kehricht-2026-01-02",
+      "date": "2026-01-02",
+      "weekday": "Freitag",
+      "type": "kehricht",
+      "district": "Münchenstein West",
+      "reminder": {
+        "date": "2026-01-01",
+        "time": "19:00",
+        "days_before": 1
+      },
+      "is_exception": false,
+      "note": ""
+    },
+    {
+      "id": "kehricht-2026-01-09",
+      "date": "2026-01-09",
+      "weekday": "Freitag",
+      "type": "kehricht",
+      "district": "Münchenstein West",
+      "reminder": {
+        "date": "2026-01-08",
+        "time": "19:00",
+        "days_before": 1
+      },
+      "is_exception": false,
+      "note": ""
+    },
+    {
+      "id": "kehricht-2026-01-16",
+      "date": "2026-01-16",
+      "weekday": "Freitag",
+      "type": "kehricht",
+      "district": "Münchenstein West",
+      "reminder": {
+        "date": "2026-01-15",
+        "time": "19:00",
+        "days_before": 1
+      },
+      "is_exception": false,
+      "note": ""
+    },
+    {
+      "id": "karton-2026-01-22",
+      "date": "2026-01-22",
+      "weekday": "Donnerstag",
+      "type": "karton",
+      "district": "Münchenstein West",
+      "reminder": {
+        "date": "2026-01-21",
+        "time": "19:00",
+        "days_before": 1
+      },
+      "is_exception": false,
+      "note": ""
+    },
+    {
+      "id": "kehricht-2026-01-23",
+      "date": "2026-01-23",
+      "weekday": "Freitag",
+      "type": "kehricht",
+      "district": "Münchenstein West",
+      "reminder": {
+        "date": "2026-01-22",
+        "time": "19:00",
+        "days_before": 1
+      },
+      "is_exception": false,
+      "note": ""
+    },
+    {
+      "id": "kehricht-2026-01-30",
+      "date": "2026-01-30",
+      "weekday": "Freitag",
+      "type": "kehricht",
+      "district": "Münchenstein West",
+      "reminder": {
+        "date": "2026-01-29",
+        "time": "19:00",
+        "days_before": 1
+      },
+      "is_exception": false,
+      "note": ""
+    },
+    {
+      "id": "kehricht-2026-02-06",
+      "date": "2026-02-06",
+      "weekday": "Freitag",
+      "type": "kehricht",
+      "district": "Münchenstein West",
+      "reminder": {
+        "date": "2026-02-05",
+        "time": "19:00",
+        "days_before": 1
+      },
+      "is_exception": false,
+      "note": ""
+    },
+    {
+      "id": "kehricht-2026-02-13",
+      "date": "2026-02-13",
+      "weekday": "Freitag",
+      "type": "kehricht",
+      "district": "Münchenstein West",
+      "reminder": {
+        "date": "2026-02-12",
+        "time": "19:00",
+        "days_before": 1
+      },
+      "is_exception": false,
+      "note": ""
+    },
+    {
+      "id": "kehricht-2026-02-20",
+      "date": "2026-02-20",
+      "weekday": "Freitag",
+      "type": "kehricht",
+      "district": "Münchenstein West",
+      "reminder": {
+        "date": "2026-02-19",
+        "time": "19:00",
+        "days_before": 1
+      },
+      "is_exception": false,
+      "note": ""
+    },
+    {
+      "id": "karton-2026-02-26",
+      "date": "2026-02-26",
+      "weekday": "Donnerstag",
+      "type": "karton",
+      "district": "Münchenstein West",
+      "reminder": {
+        "date": "2026-02-25",
+        "time": "19:00",
+        "days_before": 1
+      },
+      "is_exception": false,
+      "note": ""
+    },
+    {
+      "id": "kehricht-2026-02-27",
+      "date": "2026-02-27",
+      "weekday": "Freitag",
+      "type": "kehricht",
+      "district": "Münchenstein West",
+      "reminder": {
+        "date": "2026-02-26",
+        "time": "19:00",
+        "days_before": 1
+      },
+      "is_exception": false,
+      "note": ""
+    },
+    {
+      "id": "kehricht-2026-03-06",
+      "date": "2026-03-06",
+      "weekday": "Freitag",
+      "type": "kehricht",
+      "district": "Münchenstein West",
+      "reminder": {
+        "date": "2026-03-05",
+        "time": "19:00",
+        "days_before": 1
+      },
+      "is_exception": false,
+      "note": ""
+    },
+    {
+      "id": "kehricht-2026-03-13",
+      "date": "2026-03-13",
+      "weekday": "Freitag",
+      "type": "kehricht",
+      "district": "Münchenstein West",
+      "reminder": {
+        "date": "2026-03-12",
+        "time": "19:00",
+        "days_before": 1
+      },
+      "is_exception": false,
+      "note": ""
+    },
+    {
+      "id": "kehricht-2026-03-20",
+      "date": "2026-03-20",
+      "weekday": "Freitag",
+      "type": "kehricht",
+      "district": "Münchenstein West",
+      "reminder": {
+        "date": "2026-03-19",
+        "time": "19:00",
+        "days_before": 1
+      },
+      "is_exception": false,
+      "note": ""
+    },
+    {
+      "id": "karton-2026-03-26",
+      "date": "2026-03-26",
+      "weekday": "Donnerstag",
+      "type": "karton",
+      "district": "Münchenstein West",
+      "reminder": {
+        "date": "2026-03-25",
+        "time": "19:00",
+        "days_before": 1
+      },
+      "is_exception": false,
+      "note": ""
+    },
+    {
+      "id": "kehricht-2026-03-27",
+      "date": "2026-03-27",
+      "weekday": "Freitag",
+      "type": "kehricht",
+      "district": "Münchenstein West",
+      "reminder": {
+        "date": "2026-03-26",
+        "time": "19:00",
+        "days_before": 1
+      },
+      "is_exception": false,
+      "note": ""
+    },
+    {
+      "id": "kehricht-2026-04-07",
+      "date": "2026-04-07",
+      "weekday": "Dienstag",
+      "type": "kehricht",
+      "district": "Münchenstein West",
+      "reminder": {
+        "date": "2026-04-06",
+        "time": "19:00",
+        "days_before": 1
+      },
+      "is_exception": true,
+      "note": "Ersatz für ausgefallene Freitagsabfuhr am 2026-04-03 (Karfreitag)"
+    },
+    {
+      "id": "kehricht-2026-04-10",
+      "date": "2026-04-10",
+      "weekday": "Freitag",
+      "type": "kehricht",
+      "district": "Münchenstein West",
+      "reminder": {
+        "date": "2026-04-09",
+        "time": "19:00",
+        "days_before": 1
+      },
+      "is_exception": false,
+      "note": ""
+    },
+    {
+      "id": "kehricht-2026-04-17",
+      "date": "2026-04-17",
+      "weekday": "Freitag",
+      "type": "kehricht",
+      "district": "Münchenstein West",
+      "reminder": {
+        "date": "2026-04-16",
+        "time": "19:00",
+        "days_before": 1
+      },
+      "is_exception": false,
+      "note": ""
+    },
+    {
+      "id": "karton-2026-04-23",
+      "date": "2026-04-23",
+      "weekday": "Donnerstag",
+      "type": "karton",
+      "district": "Münchenstein West",
+      "reminder": {
+        "date": "2026-04-22",
+        "time": "19:00",
+        "days_before": 1
+      },
+      "is_exception": false,
+      "note": ""
+    },
+    {
+      "id": "kehricht-2026-04-24",
+      "date": "2026-04-24",
+      "weekday": "Freitag",
+      "type": "kehricht",
+      "district": "Münchenstein West",
+      "reminder": {
+        "date": "2026-04-23",
+        "time": "19:00",
+        "days_before": 1
+      },
+      "is_exception": false,
+      "note": ""
+    },
+    {
+      "id": "kehricht-2026-05-05",
+      "date": "2026-05-05",
+      "weekday": "Dienstag",
+      "type": "kehricht",
+      "district": "Münchenstein West",
+      "reminder": {
+        "date": "2026-05-04",
+        "time": "19:00",
+        "days_before": 1
+      },
+      "is_exception": true,
+      "note": "Ersatz für ausgefallene Freitagsabfuhr am 2026-05-01 (Tag der Arbeit)"
+    },
+    {
+      "id": "kehricht-2026-05-08",
+      "date": "2026-05-08",
+      "weekday": "Freitag",
+      "type": "kehricht",
+      "district": "Münchenstein West",
+      "reminder": {
+        "date": "2026-05-07",
+        "time": "19:00",
+        "days_before": 1
+      },
+      "is_exception": false,
+      "note": ""
+    },
+    {
+      "id": "kehricht-2026-05-15",
+      "date": "2026-05-15",
+      "weekday": "Freitag",
+      "type": "kehricht",
+      "district": "Münchenstein West",
+      "reminder": {
+        "date": "2026-05-14",
+        "time": "19:00",
+        "days_before": 1
+      },
+      "is_exception": false,
+      "note": ""
+    },
+    {
+      "id": "karton-2026-05-21",
+      "date": "2026-05-21",
+      "weekday": "Donnerstag",
+      "type": "karton",
+      "district": "Münchenstein West",
+      "reminder": {
+        "date": "2026-05-20",
+        "time": "19:00",
+        "days_before": 1
+      },
+      "is_exception": false,
+      "note": ""
+    },
+    {
+      "id": "kehricht-2026-05-22",
+      "date": "2026-05-22",
+      "weekday": "Freitag",
+      "type": "kehricht",
+      "district": "Münchenstein West",
+      "reminder": {
+        "date": "2026-05-21",
+        "time": "19:00",
+        "days_before": 1
+      },
+      "is_exception": false,
+      "note": ""
+    },
+    {
+      "id": "kehricht-2026-05-29",
+      "date": "2026-05-29",
+      "weekday": "Freitag",
+      "type": "kehricht",
+      "district": "Münchenstein West",
+      "reminder": {
+        "date": "2026-05-28",
+        "time": "19:00",
+        "days_before": 1
+      },
+      "is_exception": false,
+      "note": ""
+    },
+    {
+      "id": "kehricht-2026-06-05",
+      "date": "2026-06-05",
+      "weekday": "Freitag",
+      "type": "kehricht",
+      "district": "Münchenstein West",
+      "reminder": {
+        "date": "2026-06-04",
+        "time": "19:00",
+        "days_before": 1
+      },
+      "is_exception": false,
+      "note": ""
+    },
+    {
+      "id": "kehricht-2026-06-12",
+      "date": "2026-06-12",
+      "weekday": "Freitag",
+      "type": "kehricht",
+      "district": "Münchenstein West",
+      "reminder": {
+        "date": "2026-06-11",
+        "time": "19:00",
+        "days_before": 1
+      },
+      "is_exception": false,
+      "note": ""
+    },
+    {
+      "id": "kehricht-2026-06-19",
+      "date": "2026-06-19",
+      "weekday": "Freitag",
+      "type": "kehricht",
+      "district": "Münchenstein West",
+      "reminder": {
+        "date": "2026-06-18",
+        "time": "19:00",
+        "days_before": 1
+      },
+      "is_exception": false,
+      "note": ""
+    },
+    {
+      "id": "karton-2026-06-25",
+      "date": "2026-06-25",
+      "weekday": "Donnerstag",
+      "type": "karton",
+      "district": "Münchenstein West",
+      "reminder": {
+        "date": "2026-06-24",
+        "time": "19:00",
+        "days_before": 1
+      },
+      "is_exception": false,
+      "note": ""
+    },
+    {
+      "id": "kehricht-2026-06-26",
+      "date": "2026-06-26",
+      "weekday": "Freitag",
+      "type": "kehricht",
+      "district": "Münchenstein West",
+      "reminder": {
+        "date": "2026-06-25",
+        "time": "19:00",
+        "days_before": 1
+      },
+      "is_exception": false,
+      "note": ""
+    },
+    {
+      "id": "kehricht-2026-07-03",
+      "date": "2026-07-03",
+      "weekday": "Freitag",
+      "type": "kehricht",
+      "district": "Münchenstein West",
+      "reminder": {
+        "date": "2026-07-02",
+        "time": "19:00",
+        "days_before": 1
+      },
+      "is_exception": false,
+      "note": ""
+    },
+    {
+      "id": "kehricht-2026-07-10",
+      "date": "2026-07-10",
+      "weekday": "Freitag",
+      "type": "kehricht",
+      "district": "Münchenstein West",
+      "reminder": {
+        "date": "2026-07-09",
+        "time": "19:00",
+        "days_before": 1
+      },
+      "is_exception": false,
+      "note": ""
+    },
+    {
+      "id": "kehricht-2026-07-17",
+      "date": "2026-07-17",
+      "weekday": "Freitag",
+      "type": "kehricht",
+      "district": "Münchenstein West",
+      "reminder": {
+        "date": "2026-07-16",
+        "time": "19:00",
+        "days_before": 1
+      },
+      "is_exception": false,
+      "note": ""
+    },
+    {
+      "id": "karton-2026-07-23",
+      "date": "2026-07-23",
+      "weekday": "Donnerstag",
+      "type": "karton",
+      "district": "Münchenstein West",
+      "reminder": {
+        "date": "2026-07-22",
+        "time": "19:00",
+        "days_before": 1
+      },
+      "is_exception": false,
+      "note": ""
+    },
+    {
+      "id": "kehricht-2026-07-24",
+      "date": "2026-07-24",
+      "weekday": "Freitag",
+      "type": "kehricht",
+      "district": "Münchenstein West",
+      "reminder": {
+        "date": "2026-07-23",
+        "time": "19:00",
+        "days_before": 1
+      },
+      "is_exception": false,
+      "note": ""
+    },
+    {
+      "id": "kehricht-2026-07-31",
+      "date": "2026-07-31",
+      "weekday": "Freitag",
+      "type": "kehricht",
+      "district": "Münchenstein West",
+      "reminder": {
+        "date": "2026-07-30",
+        "time": "19:00",
+        "days_before": 1
+      },
+      "is_exception": false,
+      "note": ""
+    },
+    {
+      "id": "kehricht-2026-08-07",
+      "date": "2026-08-07",
+      "weekday": "Freitag",
+      "type": "kehricht",
+      "district": "Münchenstein West",
+      "reminder": {
+        "date": "2026-08-06",
+        "time": "19:00",
+        "days_before": 1
+      },
+      "is_exception": false,
+      "note": ""
+    },
+    {
+      "id": "kehricht-2026-08-14",
+      "date": "2026-08-14",
+      "weekday": "Freitag",
+      "type": "kehricht",
+      "district": "Münchenstein West",
+      "reminder": {
+        "date": "2026-08-13",
+        "time": "19:00",
+        "days_before": 1
+      },
+      "is_exception": false,
+      "note": ""
+    },
+    {
+      "id": "kehricht-2026-08-21",
+      "date": "2026-08-21",
+      "weekday": "Freitag",
+      "type": "kehricht",
+      "district": "Münchenstein West",
+      "reminder": {
+        "date": "2026-08-20",
+        "time": "19:00",
+        "days_before": 1
+      },
+      "is_exception": false,
+      "note": ""
+    },
+    {
+      "id": "karton-2026-08-27",
+      "date": "2026-08-27",
+      "weekday": "Donnerstag",
+      "type": "karton",
+      "district": "Münchenstein West",
+      "reminder": {
+        "date": "2026-08-26",
+        "time": "19:00",
+        "days_before": 1
+      },
+      "is_exception": false,
+      "note": ""
+    },
+    {
+      "id": "kehricht-2026-08-28",
+      "date": "2026-08-28",
+      "weekday": "Freitag",
+      "type": "kehricht",
+      "district": "Münchenstein West",
+      "reminder": {
+        "date": "2026-08-27",
+        "time": "19:00",
+        "days_before": 1
+      },
+      "is_exception": false,
+      "note": ""
+    },
+    {
+      "id": "kehricht-2026-09-04",
+      "date": "2026-09-04",
+      "weekday": "Freitag",
+      "type": "kehricht",
+      "district": "Münchenstein West",
+      "reminder": {
+        "date": "2026-09-03",
+        "time": "19:00",
+        "days_before": 1
+      },
+      "is_exception": false,
+      "note": ""
+    },
+    {
+      "id": "kehricht-2026-09-11",
+      "date": "2026-09-11",
+      "weekday": "Freitag",
+      "type": "kehricht",
+      "district": "Münchenstein West",
+      "reminder": {
+        "date": "2026-09-10",
+        "time": "19:00",
+        "days_before": 1
+      },
+      "is_exception": false,
+      "note": ""
+    },
+    {
+      "id": "kehricht-2026-09-18",
+      "date": "2026-09-18",
+      "weekday": "Freitag",
+      "type": "kehricht",
+      "district": "Münchenstein West",
+      "reminder": {
+        "date": "2026-09-17",
+        "time": "19:00",
+        "days_before": 1
+      },
+      "is_exception": false,
+      "note": ""
+    },
+    {
+      "id": "karton-2026-09-24",
+      "date": "2026-09-24",
+      "weekday": "Donnerstag",
+      "type": "karton",
+      "district": "Münchenstein West",
+      "reminder": {
+        "date": "2026-09-23",
+        "time": "19:00",
+        "days_before": 1
+      },
+      "is_exception": false,
+      "note": ""
+    },
+    {
+      "id": "kehricht-2026-09-25",
+      "date": "2026-09-25",
+      "weekday": "Freitag",
+      "type": "kehricht",
+      "district": "Münchenstein West",
+      "reminder": {
+        "date": "2026-09-24",
+        "time": "19:00",
+        "days_before": 1
+      },
+      "is_exception": false,
+      "note": ""
+    },
+    {
+      "id": "kehricht-2026-10-02",
+      "date": "2026-10-02",
+      "weekday": "Freitag",
+      "type": "kehricht",
+      "district": "Münchenstein West",
+      "reminder": {
+        "date": "2026-10-01",
+        "time": "19:00",
+        "days_before": 1
+      },
+      "is_exception": false,
+      "note": ""
+    },
+    {
+      "id": "kehricht-2026-10-09",
+      "date": "2026-10-09",
+      "weekday": "Freitag",
+      "type": "kehricht",
+      "district": "Münchenstein West",
+      "reminder": {
+        "date": "2026-10-08",
+        "time": "19:00",
+        "days_before": 1
+      },
+      "is_exception": false,
+      "note": ""
+    },
+    {
+      "id": "kehricht-2026-10-16",
+      "date": "2026-10-16",
+      "weekday": "Freitag",
+      "type": "kehricht",
+      "district": "Münchenstein West",
+      "reminder": {
+        "date": "2026-10-15",
+        "time": "19:00",
+        "days_before": 1
+      },
+      "is_exception": false,
+      "note": ""
+    },
+    {
+      "id": "karton-2026-10-22",
+      "date": "2026-10-22",
+      "weekday": "Donnerstag",
+      "type": "karton",
+      "district": "Münchenstein West",
+      "reminder": {
+        "date": "2026-10-21",
+        "time": "19:00",
+        "days_before": 1
+      },
+      "is_exception": false,
+      "note": ""
+    },
+    {
+      "id": "kehricht-2026-10-23",
+      "date": "2026-10-23",
+      "weekday": "Freitag",
+      "type": "kehricht",
+      "district": "Münchenstein West",
+      "reminder": {
+        "date": "2026-10-22",
+        "time": "19:00",
+        "days_before": 1
+      },
+      "is_exception": false,
+      "note": ""
+    },
+    {
+      "id": "kehricht-2026-10-30",
+      "date": "2026-10-30",
+      "weekday": "Freitag",
+      "type": "kehricht",
+      "district": "Münchenstein West",
+      "reminder": {
+        "date": "2026-10-29",
+        "time": "19:00",
+        "days_before": 1
+      },
+      "is_exception": false,
+      "note": ""
+    },
+    {
+      "id": "kehricht-2026-11-06",
+      "date": "2026-11-06",
+      "weekday": "Freitag",
+      "type": "kehricht",
+      "district": "Münchenstein West",
+      "reminder": {
+        "date": "2026-11-05",
+        "time": "19:00",
+        "days_before": 1
+      },
+      "is_exception": false,
+      "note": ""
+    },
+    {
+      "id": "kehricht-2026-11-13",
+      "date": "2026-11-13",
+      "weekday": "Freitag",
+      "type": "kehricht",
+      "district": "Münchenstein West",
+      "reminder": {
+        "date": "2026-11-12",
+        "time": "19:00",
+        "days_before": 1
+      },
+      "is_exception": false,
+      "note": ""
+    },
+    {
+      "id": "kehricht-2026-11-20",
+      "date": "2026-11-20",
+      "weekday": "Freitag",
+      "type": "kehricht",
+      "district": "Münchenstein West",
+      "reminder": {
+        "date": "2026-11-19",
+        "time": "19:00",
+        "days_before": 1
+      },
+      "is_exception": false,
+      "note": ""
+    },
+    {
+      "id": "karton-2026-11-26",
+      "date": "2026-11-26",
+      "weekday": "Donnerstag",
+      "type": "karton",
+      "district": "Münchenstein West",
+      "reminder": {
+        "date": "2026-11-25",
+        "time": "19:00",
+        "days_before": 1
+      },
+      "is_exception": false,
+      "note": ""
+    },
+    {
+      "id": "kehricht-2026-11-27",
+      "date": "2026-11-27",
+      "weekday": "Freitag",
+      "type": "kehricht",
+      "district": "Münchenstein West",
+      "reminder": {
+        "date": "2026-11-26",
+        "time": "19:00",
+        "days_before": 1
+      },
+      "is_exception": false,
+      "note": ""
+    },
+    {
+      "id": "kehricht-2026-12-04",
+      "date": "2026-12-04",
+      "weekday": "Freitag",
+      "type": "kehricht",
+      "district": "Münchenstein West",
+      "reminder": {
+        "date": "2026-12-03",
+        "time": "19:00",
+        "days_before": 1
+      },
+      "is_exception": false,
+      "note": ""
+    },
+    {
+      "id": "kehricht-2026-12-11",
+      "date": "2026-12-11",
+      "weekday": "Freitag",
+      "type": "kehricht",
+      "district": "Münchenstein West",
+      "reminder": {
+        "date": "2026-12-10",
+        "time": "19:00",
+        "days_before": 1
+      },
+      "is_exception": false,
+      "note": ""
+    },
+    {
+      "id": "karton-2026-12-17",
+      "date": "2026-12-17",
+      "weekday": "Donnerstag",
+      "type": "karton",
+      "district": "Münchenstein West",
+      "reminder": {
+        "date": "2026-12-16",
+        "time": "19:00",
+        "days_before": 1
+      },
+      "is_exception": false,
+      "note": ""
+    },
+    {
+      "id": "kehricht-2026-12-18",
+      "date": "2026-12-18",
+      "weekday": "Freitag",
+      "type": "kehricht",
+      "district": "Münchenstein West",
+      "reminder": {
+        "date": "2026-12-17",
+        "time": "19:00",
+        "days_before": 1
+      },
+      "is_exception": false,
+      "note": ""
+    },
+    {
+      "id": "kehricht-2026-12-29",
+      "date": "2026-12-29",
+      "weekday": "Dienstag",
+      "type": "kehricht",
+      "district": "Münchenstein West",
+      "reminder": {
+        "date": "2026-12-28",
+        "time": "19:00",
+        "days_before": 1
+      },
+      "is_exception": true,
+      "note": "Ersatz für ausgefallene Freitagsabfuhr am 2026-12-25 (Weihnachtstag)"
+    }
+  ]
+}

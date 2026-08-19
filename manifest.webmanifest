@@ -1,0 +1,9 @@
+{
+  "name": "MüllMälder",
+  "short_name": "MüllMälder",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#F4F5F7",
+  "theme_color": "#F4F5F7",
+  "description": "Abfuhrerinnerung für Münchenstein West"
+}
