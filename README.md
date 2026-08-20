@@ -17,3 +17,5 @@ Die drei Menüpunkte unten sind jetzt echte Navigation.
 6. Browser:
    http://127.0.0.1:8000
 7. Falls nötig Ctrl+F5
+
+8. hallöchen
